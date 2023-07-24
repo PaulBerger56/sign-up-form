@@ -93,18 +93,28 @@ button {
 }
 
 .banner {
-    height: 170px;
-    color: white;    
-    font-size: 100px;    
+    margin-top: 150px;
+    height: 20vh;
+    color: white;
+    font-size: 5vw;
     display: flex;
-    justify-content: center;
-    margin-top: 200px;    
+    align-items: center; 
+    justify-content: flex-start; 
     background-color: rgba(0, 0, 0, 0.7);
-    padding-top: 35px;    
+    padding-left: 5vw; 
+    font-family: 'Norse-Bold';
 }
 
 .banner img {
-    height: 150px;
+    height: 15vh;
+    max-width: 80%;
+    margin-right: 1vw;
 }
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url(Fonts/Norse-Bold.otf);
+}
+
 
 
