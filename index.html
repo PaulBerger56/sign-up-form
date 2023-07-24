@@ -15,19 +15,42 @@
                 <div class="top-paragraph">
                     <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
                     <br> Sign up <i>now</i> to get started.</p>                    
-                    <p>You know you want to!</p>
+                    <p>You <i>know</i> you want to!</p>
                 </div>
                 <br>
                 <br>
                 <div class="info-area">
                     <p>Let's do this!</p>
                     <form action="#" method="get">
-                        <div class="left-column">
-                            <label for="first_name">First Name</label>
-                            <input type="text" id="first_name" name="first_name">
-                            <br>
-
-                            <label for="email">Email</label>
+                        <div class="form-row">
+                            <div class="entry">
+                                <label for="first_name">First Name</label>
+                                <input type="text" id="first_name" name="first_name">
+                            </div>
+                            <div class="entry">
+                                <label for="last_name">Last Name</label>
+                                <input type="text" id="last_name" name="last_name">   
+                            </div>                         
+                        </div>
+                        <div class="form-row">
+                            <div class="entry">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>   
+                            <div class="entry">
+                                <label for="phone_number">Phone Number</label>
+                                <input type="tel" id="phone_number" name="phone_number">  
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="entry">
+                                <label for="password">Password</label>
+                                <input class="confirmed" type="password" id="password" name="password" required>
+                            </div>
+                            <div class="entry">
+                                <label for="confirm_password">Confirm Password</label>
+                                <input class="confirmed" type="password" id="confirm_password" name="confirm_password" required>  
+                            </div>
                         </div>
                     </form>
 

@@ -45,3 +45,19 @@ p {
     font-family: sans-serif;
     font-weight: 900;
 }
+
+form {
+    max-width: 750px;     
+}
+
+.form-row {
+    display: flex;
+    align-items: self-start
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+    padding-top: 25px;
+}
