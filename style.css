@@ -89,7 +89,16 @@ input {
 }
 
 button {
-    
+    background-color: rgba(0, 4, 12, 255);
+    color: rgba(104, 196, 217, 255);
+    border-radius: 10px; /* Adjust the value to control the amount of rounding */
+    padding: 20px 30px; /* Adjust the values to control the padding */
+    text-align: center; 
+    display: block; 
+    font-weight: bold;
+    font-size: 16px; 
+    cursor: pointer; 
+    border: none; 
 }
 
 .banner {
@@ -114,6 +123,16 @@ button {
 @font-face {
     font-family: 'Norse-Bold';
     src: url(Fonts/Norse-Bold.otf);
+}
+
+.right-bottom {
+    font-family: sans-serif;    
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a {
+    color: rgba(104,196,217,255);
 }
 
 
