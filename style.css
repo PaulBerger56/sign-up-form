@@ -27,13 +27,12 @@ body, html {
 }
 
 #right-side {
-    flex: 2;
-    padding: 20px;   
+    flex: 2;     
     align-self: center;
 }
 
-.right-container {
-    padding: 20px;
+.right-container {    
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);        
 }
 
 .top-paragraph {
@@ -44,10 +43,12 @@ p {
     font-size: 1.5em;
     font-family: sans-serif;
     font-weight: 900;
+    margin-left: 30px;
 }
 
 form {
-    max-width: 750px;     
+    max-width: 750px;   
+    margin-left: 30px;  
 }
 
 .form-row {
@@ -59,5 +60,19 @@ form {
     display: flex;
     flex-direction: column;
     padding-right: 70px;
-    padding-top: 25px;
+    padding-bottom: 30px;
 }
+
+.right-bottom {
+    padding-top: 30px;
+    padding-left: 30px;    
+}
+
+.login {
+    padding-top: 30px;
+}
+
+button {
+    
+}
+
