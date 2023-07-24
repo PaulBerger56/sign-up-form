@@ -11,7 +11,8 @@ body, html {
 
 #left-side {
     flex: 1;
-    max-width: 33.33%;
+    max-width: 34%;
+    min-width: 34%;
     padding: 0;
     margin: 0;
     overflow: hidden;
@@ -36,19 +37,19 @@ body, html {
 }
 
 .top-paragraph {
-    max-width: 750px;
+    max-width: 800px;
 }
 
 p {
     font-size: 1.5em;
     font-family: sans-serif;
     font-weight: 900;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 form {
     max-width: 750px;   
-    margin-left: 30px;  
+    margin-left: 40px;  
 }
 
 .form-row {
@@ -59,13 +60,28 @@ form {
 .entry {
     display: flex;
     flex-direction: column;
-    padding-right: 70px;
+    padding-right: 90px;
     padding-bottom: 30px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-size: small;
+    font-weight: bold;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid rgba(200, 200, 200, 0.5); 
+    border-radius: 10px;
+    background-color: transparent; 
+    color: #333; 
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .right-bottom {
     padding-top: 30px;
-    padding-left: 30px;    
+    padding-left: 40px;    
 }
 
 .login {
@@ -75,4 +91,20 @@ form {
 button {
     
 }
+
+.banner {
+    height: 170px;
+    color: white;    
+    font-size: 100px;    
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;    
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 35px;    
+}
+
+.banner img {
+    height: 150px;
+}
+
 
